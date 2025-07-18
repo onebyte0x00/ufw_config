@@ -9,7 +9,7 @@ else
     echo "Allowed port $port only from $ip"
 fi
 
-# 4. Bulk adding ports using arrays
+#  Bulk adding ports using arrays
 declare -a ports=(80 443 22)
 for port in "${ports[@]}"; do
     sudo ufw allow $port/tcp
