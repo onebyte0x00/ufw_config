@@ -1,3 +1,4 @@
+#Adding rules from user
 read -p "Enter port to allow: " port
 read -p "Allow from specific IP? (leave blank for all): " ip
 
